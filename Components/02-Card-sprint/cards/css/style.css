@@ -4,6 +4,8 @@
 /* Importing all components file */
 @import url("components/cards.css");
 
+
+
 /* General for fonts and colors */
 body {
   margin: 100px;
@@ -17,4 +19,8 @@ a {
 }
 .text-center {
   text-align: center;
+}
+
+div {
+    display: block;
 }

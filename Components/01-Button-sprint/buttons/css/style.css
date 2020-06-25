@@ -4,6 +4,10 @@
 /* Importing all components file */
 @import url("components/button.css");
 
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
 /* General for fonts and colors */
 body {
   margin: 100px;
@@ -14,6 +18,7 @@ h1, h2, h3 {
 }
 a {
   text-decoration: none;
+
 }
 .text-center {
   text-align: center;
