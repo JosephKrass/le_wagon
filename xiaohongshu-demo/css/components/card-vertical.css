@@ -1,0 +1,38 @@
+.post{
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 0 30px 0;
+}
+.post > img {
+  width:100%;
+  object-fit: cover;
+}
+.post .social-bar {
+  padding:16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.post .social-bar .avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.avatar > img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.engagement {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
+
