@@ -18,5 +18,51 @@ a {
   text-decoration: none;
 }
 
+.banner {
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position:center;
+  padding:200px 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius:50px;
+  color: white;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  box-shadow:0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height:100px;
+}
+
+.div {
+  display: block;
+}
+
+.text-center{
+  text-align:center;
+}
 /* Custom design below! */
 
