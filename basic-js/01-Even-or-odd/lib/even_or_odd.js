@@ -1,11 +1,11 @@
 evenOrOdd = (number) => {
-  if (number % 2){
-    return("Odd!")
+  if (number % 2 ==0){
+    return("Even!")
   } else{
-  return ("Even!")
+  return ("Odd!")
 
 }
 }
-console.log(evenOrOdd(8))
+console.log(evenOrOdd(20))
 
 
