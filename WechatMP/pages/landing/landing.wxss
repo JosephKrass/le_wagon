@@ -1,0 +1,15 @@
+/* pages/landing/landing.wxss */
+
+.h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.p {
+  color: white;
+}
+
+.btn btn-flat {
+  color: white;
+}

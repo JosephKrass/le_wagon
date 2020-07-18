@@ -1,0 +1,13 @@
+<!--pages/stories/stories.wxml-->
+<view class="banner" style="padding:20px 0px; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static.wixstatic.com/media/9d5371_cb7fea987b66401d959b7725760cfe55~mv2.jpg/v1/fit/w_2500,h_1330,al_c/9d5371_cb7fea987b66401d959b7725760cfe55~mv2.jpg);">
+    <view class="h1"></view>
+    <view class="p">{{tagline}}</view>
+</view>
+<!-- FMC STORY -->
+<view wx:for="{{stories}}" wx:for-item="story" class="card-product">
+  <view class="card-product-infos">
+    <view class="h2">{{story.content}}</view>
+    <view class="p">{{story.name}}</view>
+    <view data-id="{{story.id}}" bindtap="showStory"> Story ID {{story.id}} </view>
+  </view>
+</view>

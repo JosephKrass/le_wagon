@@ -1,0 +1,9 @@
+<!--pages/landing/landing.wxml-->
+<view class="banner" style="padding-top:20px; height: 100vh; background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media-exp1.licdn.com/dms/image/C5112AQFdK1QKrJ4sIQ/article-cover_image-shrink_600_2000/0?e=1598486400&v=beta&t=mCcogPejhsK8JVj1DOi5Ii0CCJHTMZ7EIKZpxoDGAgM);">
+  <view class="container">
+    <view class="h1"> Jin Ri Tou Tiao </view>
+    <view class="p"> What's in today's news?</view>
+    <button class="btn btn-flat" bindtap="goToStories">Explore</button>
+  </view>
+</view>
+
